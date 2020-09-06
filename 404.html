@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Redirecting...</title>
+</head>
+
+<body>
+  <a id="link" href="https://EthShaw.github.io/">If you are not redirected within 10 seconds to EthShaw.github.io, click here.</a>
+  <script>
+    var link = document.getElementById('link');
+    var newUrl = "https://EthShaw.github.io" + window.location.pathname + window.location.search + window.location.hash;
+    link.href = newUrl;
+    window.location.replace(newUrl);
+  </script>
+</body>
+
+</html>
